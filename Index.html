@@ -12,44 +12,44 @@
             <h1>Student Registration System</h1>
         </div>
         <div class="content">
-        <div class="student-form">
-            <form action="" class="stu-container">
-                <div class="data">
-                <label for="text">Student Name:</label>
-                <input type="text" placeholder="Enter Name" id="text" name="name" required><br>
-                </div>
+            <div class="student-form">
+                <form action="POST"  id="studentForm" class="stu-container">
+                    <div class="data">
+                    <label for="text">Student Name:</label>
+                    <input type="text" placeholder="Enter Name" id="text" name="name" required><br>
+                    </div>
 
-                <div class="data">
-                <label for="stuid">Student Id:</label>
-                <input type="text" placeholder="Enter Student Id" id="stuid" name="stuid" required><br>
-                </div>
+                    <div class="data">
+                    <label for="stuid">Student Id:</label>
+                    <input type="text" placeholder="Enter Student Id" id="stuId" name="stuid" required><br>
+                    </div>
 
-                <div class="data">
-                <label for="email">Enter Your Email:</label><br>
-                <input type="email" name="email" placeholder="Enter Your Class" id="email" required><br>
-                </div>
+                    <div class="data">
+                    <label for="email">Enter Your Email:</label><br>
+                    <input type="email" name="email" placeholder="Enter Your Email" id="email" required><br>
+                    </div>
 
-                <div class="data">
-                <label for="Contact">Contact No:</label>
-                <input type="number" name="Contact No" id="contact" placeholder="Enter Your Number" required><br>
-                 </div>
-                <button type="submit" class="btn" id="btn">Add Data</button>
-            </form>
-        </div>
+                    <div class="data">
+                    <label for="Contact">Contact No:</label>
+                    <input type="number" name="Contact No" id="contact" placeholder="Enter Your Number" required><br>
+                    </div>
+                    <button type="submit" class="btn" id="btn">Add Data</button>
+                </form>
+            </div>
         <div class="formdata">
             <table id="student-data">
+                <thead>
                 <tr>
                     <th>Name</th>
                     <th>Id</th>
                     <th>Email</th>
                     <th>Number</th>
+                    <th>Edit/Delete</th>
                 </tr>
-                <tr>
-                    <td>John</td>
-                    <td>123</td>
-                    <td>john@gmail.com</td>
-                    <td>1234567890</td>
-                </tr>
+                </thead>
+                <tbody>
+               
+                </tbody>
             </table>
         </div>
     </div>
