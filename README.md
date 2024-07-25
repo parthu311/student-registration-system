@@ -1,5 +1,5 @@
 
-GitHub Link: 
+GitHub Link: https://github.com/parthu311/student-registration-system
 
 ### HTML and JavaScript Documentation for Student Registration System
 
