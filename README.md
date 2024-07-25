@@ -2,7 +2,7 @@
 GitHub Link: https://github.com/parthu311/student-registration-system
 
 ### HTML and JavaScript Documentation for Student Registration System
-
+![alt text]({02F2E3C2-84C9-4643-9970-161A21D46AAD}.png)
 #### HTML Structure
 
 1. DOCTYPE and HTML Language
